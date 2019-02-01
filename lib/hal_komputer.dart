@@ -10,7 +10,7 @@ class Komputer extends StatelessWidget {
             new Padding(padding: EdgeInsets.all(20.0),),
             new Text("KOMPUTER", style: new TextStyle(fontSize: 30.0),),
             new Padding(padding: EdgeInsets.all(20.0),),
-            new Icon(Icons.computer, size: 90.0,)
+            new Image.asset("img/komputer.jpg", width: 200.0,)
           ],
         ),
       ),

@@ -10,7 +10,7 @@ class Smartphone extends StatelessWidget {
             new Padding(padding: EdgeInsets.all(20.0),),
             new Text("SMARTPHONE", style: new TextStyle(fontSize: 30.0),),
             new Padding(padding: EdgeInsets.all(20.0),),
-            new Icon(Icons.smartphone, size: 90.0,)
+            new Image.asset("img/smartphone.jpg", width: 300.0,)
           ],
         ),
       ),
